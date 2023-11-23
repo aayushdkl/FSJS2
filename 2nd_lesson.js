@@ -101,9 +101,17 @@
 
 //random
 
-console.log(Math.random() * 10);
-// checking git 
-//checking git again 
+// console.log(Math.random() * 10);
+// // checking git 
+// //checking git again 
+
+// console.log(Math.log(2));
+
+// console.log(Math.sin(90));
+
+
+
+
 
 
 
