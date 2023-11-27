@@ -70,6 +70,92 @@
 // console.log(Array.isArray(num2));
 
 
+//Join
+// let Arr1 =[1,2,3,4,5,6,7,8];
+// console.log(Arr1.join(' Pooja '));
+
+
+// let Arr1 =[1,2,3,4,5,6,7,8];
+// let var1 = Arr1.join('1');
+//console.log(var1);
+// console.log(typeof var1);
+
+
+
+
+//keys
+// For of 
+
+
+
+
+//Lastindexof
+// let Arr1 =[1,2,,'Aayush',3,4,5,6,'Aayush',7,8];
+// console.log(Arr1.indexOf('Aayush'));
+
+//map is to work with each and every element of the array
+// let maths= [1,4,9,16,25];
+// console.log(maths.map(Math.sqrt));
+// console.log(maths);
+
+//Pop
+// let maths = [ 1,4,9,16,25];
+// console.log(maths.pop());  //This has modified the original array and it starts to pop from the last index so the elements gets removed 
+// console.log(maths);
+
+//reverse
+// let maths = [ 1,4,9,16,25];
+// console.log(maths.reverse());  //reverses the array basically
+
+
+//shift
+// let maths = [ 'Anurag',1,4,9,16,25];
+// console.log(maths.shift());  //shift removed the first element from the front like pop removed the last element it removes from the first
+
+// let maths = [1,4,9,16,25];
+// console.log(maths.shift());  //here 1 got removed from the front
+
+
+//sort
+// let names = ['aayush','john','eminem','taylor','bipul'];
+// console.log(names.sort());
+
+   //for sorting in descending order
+   //    let names = ['aayush','john','eminem','taylor','bipul'];
+   //    console.log(names.reverse(names.sort()));
+
+
+//Unshift
+// let fruit = ["Apple",'bada apple','chota apple','double apple'];
+// fruit.unshift('Apple 1,Grapes 2');
+// console.log(fruit);  //adds the element on starting , exactly opposite of what the shift does
+
+
+//Converting to array
+// let name = 'Aayush';
+// let array1 = name.split('');  //splits each and every string character into array
+// console.log(array1);
+
+
+// for of
+let fruit = ["Apple",'bada apple','chota apple','double apple'];
+let Upperfruit = [];  //empty array
+
+for(const badaletter of fruit)
+{
+    Upperfruit.push(badaletter.toUpperCase());
+}
+
+
+console.log(Upperfruit);
+console.log(fruit);
+
+
+
+
+
+
+
 
 
 
