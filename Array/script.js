@@ -138,19 +138,39 @@
 
 
 // for of
-let fruit = ["Apple",'bada apple','chota apple','double apple'];
-let Upperfruit = [];  //empty array
+// let fruit = ["Apple",'bada apple','chota apple','double apple'];
+// let Upperfruit = [];  //empty array
 
-for(const badaletter of fruit)
-{
-    Upperfruit.push(badaletter.toUpperCase());
-}
+// for(const badaletter of fruit)  
+// {
+//     Upperfruit.push(badaletter.toUpperCase());
+// }
 
+// console.log(Upperfruit); 
+// console.log(fruit);
 
-console.log(Upperfruit);
-console.log(fruit);
+//break and continue
 
+// for (let i = 0; i<=5; i++)
+// {
+//     if (i==3)
+//     {
+//         break; //terminate everything and comeout of the block
+//     }
+//     console.log(i);
+// }
 
+//continue
+// for (let i = 0; i<=5; i++)
+// {
+//     if (i==3)
+//     {
+//         continue; //just skip the current loop
+//     }
+//     console.log(i);
+// }
+
+//Array method in JavaScript and Write a blog in it => (compulsory)
 
 
 
