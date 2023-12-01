@@ -64,16 +64,28 @@
 
 
 //function to calculate sum of array
-function sum(arr)
-{
-   let sum = 0,i;
-   for (i =0; i<arr.length; i++)
-   { 
-    sum = sum +i;
-   }
-   return sum;
-}
+// function sum(arr)
+// {
+//    let sum = 0,i;
+//    for (i =0; i<arr.length; i++)
+//    { 
+//     sum = sum +i;
+//    }
+//    return sum;
+// }
 
-let sumarray = [1,2,3,4,5,6,7,8,9,0];
-let result = sum(sumarray);
-console.log(result);
+// let sumarray = [1,2,3,4,5,6,7,8,9,0];
+// let result = sum(sumarray);
+// console.log(result);
+
+// function aayush()
+// {
+//     //Arguments
+//     let sum =0;
+//     for (let i=0;i<arguments.length;i++)
+//     {
+//         sum = sum + arguments[i];
+//     }
+//     return sum;
+// }
+// console.log(aayush(7,8,9,10,11,12,14,15));
