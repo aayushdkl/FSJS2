@@ -89,3 +89,36 @@
 //     return sum;
 // }
 // console.log(aayush(7,8,9,10,11,12,14,15));
+
+//Arrow function
+// let ayush = (var1,var2) => {
+//     console.log('I am a god',var1,var2);
+// }
+// ayush(4,5);
+
+
+// let emin = () => {
+//     console.log('ayush');
+// };
+
+// emin();
+
+
+let userName = {
+    firstName : 'ayush',
+    lastname : 'dhakal',
+    role : 'admin',
+    loginCount : 25,
+};
+
+// console.log(userName.loginCount);
+
+// userName.loginCount = 50;
+// console.log(userName);
+
+
+//for in loop
+// for ( let x in userName)
+// {
+//     console.log(userName[x]);
+// }
