@@ -52,7 +52,7 @@
 //y Object.definePropert(obj4, 'book' , {
 //     // icon: '📕',
 //     get: () => '📕',
-//     //homework: set: 
+//     //homework: set: figure out how they work
 //     enumerable: true
 // })
 
@@ -69,7 +69,7 @@
 const obj5={
     comics : 'marvel',
     pen : '',
-    printComic: () => {
+    printComic: () => {  //though they are function they are called as methods
 
     }
 }
