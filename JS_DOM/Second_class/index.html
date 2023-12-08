@@ -6,9 +6,66 @@
     <title>Document</title>
 </head>
 <body>
-    //what is Document,windows,idclass,tag,queryselector
-    //alert,confirm,prompt,innerHTML, and innerTEXT
+    <!--what is Document,windows,idclass,tag,queryselector
+    alert,confirm,prompt,innerHTML, and innerTEXT
+    -->
+    <h1>Hello JavaScript Bootcamp</h1>
+    <ul>
 
-    <h1> </h1>
+    </ul>
+    <button onclick="maths()" id="fsjs2">Submit</button>
+    <p id="js"></p>
+
+    <script>
+        //insert inner HTML
+        const List = `
+        <li>Aayush</li>
+        <li>Eminem</li>
+        <li>Shady</li>
+        `;
+        const val = document.querySelector("ul")
+        val.innerHTML = List;
+
+        //Create element on screen
+        let title = document.createElement("h1")
+        title.className= 'title';  //class name for the variable
+        title.style.fontSize = "25px";
+        title.style.color= 'green';
+        title.textContent = "Creating New Element in DOM 2";
+        console.log(title);
+        document.body.appendChild(title)
+        //Remove child ==> Assignment
+
+        //For Loop
+        for(let i =0;i<3;i++)
+        {
+          let para =  document.createElement("p")    //This is the most important of all
+          para.className = "FSJS";
+          para.style.fontSize = "16px";
+          console.log(para);
+          para.textContent = i;
+          document.body.appendChild(para)
+        }
+
+
+        function maths(){
+            let value = prompt("Solve 50 - 30");
+            if(value == 20)
+            {
+                document.getElementById("js").innerText = "Success Redirect";
+                document.getElementById("fsjs2").style.backgroundColor = "Green"
+            }
+            else
+            {
+             document.getElementById("js").innerText = "Failed";
+             document.getElementById("fsjs2").style.backgroundColor = "Red"
+
+            }
+        }
+
+
+    </script>
+    <!-- <h1 class="title" style="font-size: 25px; color: green;"></h1> -->
+    
 </body>
 </html>
