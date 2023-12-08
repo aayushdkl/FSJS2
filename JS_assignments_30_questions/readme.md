@@ -21,7 +21,7 @@ The quesions are given below, for a specific solution of question you can see th
      - Write three JavaScript statement example which provide truthy value.
      - Write three JavaScript statement example which provide falsy value.
 
-10. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+10. i. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
       4 > 3
       4 >= 3
       4 < 3
@@ -33,5 +33,19 @@ The quesions are given below, for a specific solution of question you can see th
       4 != '4'
       4 == '4'
       4 === '4'
+    
+    ii. Find the length of python and jargon and make a falsy comparison statement.
+    
+11.  Use the Date object to do the following activities
+     - What is the year today?
+     - What is the month today as a number?
+     - What is the date today?
+     - What is the day today as a number?
+     - What is the hours now?
+     - What is the minutes now?
+     - Find out the numbers of seconds elapsed from January 1, 1970 to now.
 
-11. 
+12.      
+
+
+
