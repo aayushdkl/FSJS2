@@ -6,6 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Learning Event Listener</h1>
+    <p id="js">Event Listener</p>
+    <!-- <button id="hehe">This is a button</button> -->
+
+    <script>
+        // document.addEventListener("Event action",whom should i call)
+        document.addEventListener("dblclick",hello)
+        function hello(){
+            document.getElementById("js").innerText = "Mouse Clicked"
+        }
+
+        /*
+        click
+        dblclick
+        mouseenter
+        mouseleave      //Make something from each of these is the assignments 
+        mouseover
+        input
+        keydown
+        keyup
+        keypress
+        onload
+        */
+
+        document.addEventListener("mouseenter",change)
+        function change(){
+            document.getElementById("js").innerText="Mouse Entered"
+
+        }
+
+
+    </script>
 </body>
 </html>
