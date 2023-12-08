@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | JavaScript</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="fsjs"><span>Full Stack JavaScript - Class</span></p>
+    <!-- <p id="fsjs2"><span>Full Stack JavaScript - ID</span></p> -->
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+    </ul>
+
+    <ul>
+        <li class="tech">JavaScript</li>
+        <li class="tech">NodeJS</li>
+        <li class="tech">ReactJS</li>
+
+    </ul>
+
+    <script>
+        // console.log(document);
+        // console.log(window.document);
+        // console.log(document.documentElement);
+        // console.log(document.body);
+        // console.log(document.head);
+        // console.log(document.body.firstElementChild);
+        // let val = document.getElementById('fsjs2')
+        // console.log(val.innerHTML);
+
+
+        let val = document.getElementsByClassName("tech")
+        console.log(val);
+        console.log(val[0].innerText)
+        console.log(val[1].innerText)
+        val[1].innerHTML = 'aayush'
+        val[2].innerHTML = "<h1>Hello there</h1>"
+
+        //Homework :-
+        //-------BY TAG NAME--------
+        //-------BY TAG-------------
+
+        //Query selector
+       let h1 = document.querySelector('.fsjs').innerText
+       console.log(h1);
+
+      //Skip let value = (document.querySelector('p').style.backgroundColor= 'red')
+
+      
+
+        
+
+    </script>
+    
+</body>
+</html>
