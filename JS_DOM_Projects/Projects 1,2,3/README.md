@@ -1,4 +1,3 @@
-### Live Demo : [link](https://sm8uti.github.io/Ineuron-Full-JavaScript-2.0/DOM%20Projects/Projects%201,2,3)
 
 ## DOM Assignments 1
 
