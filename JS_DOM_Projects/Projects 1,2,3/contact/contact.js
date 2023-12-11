@@ -24,8 +24,10 @@ btns[1].addEventListener("click",(event)=>{
     event.preventDefault()
 })
 
-//selector
-let selector_1 = document.querySelector("input");
+document.querySelector(".enterName").placeholder = "FSJS 2.0";
+document.querySelector(".enterMail").placeholder = "fsjs@ineuron.ai";
+document.querySelector(".enterMessage").placeholder = "Hello World";
+document.querySelector(".userName").placeholder = "FSJS 2.0";
+document.querySelector(".userEmail").placeholder = "fsjs@ineuron.ai";
+document.querySelector(".userMessage").placeholder = "Hello World";
 
-//sidhai conncect because its an property
-selector_1.placeholder("")
