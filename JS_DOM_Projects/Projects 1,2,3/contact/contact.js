@@ -23,3 +23,9 @@ btns[1].addEventListener("click",(event)=>{
     outputMessage.value = "";
     event.preventDefault()
 })
+
+//selector
+let selector_1 = document.querySelector("input");
+
+//sidhai conncect because its an property
+selector_1.placeholder("")
